@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#fb-web{
+  background-color: #F0F2F5;
+  padding: 150px 0 250px;
+}
+.section-width{
+  width: 55%;
+  margin: 0 auto;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+.left-items{
+  width: 55%;
+}
+.fb-logo{
+  width: 80%;
+  margin: 40px 0 -10px;
+}
+.fb-logo a img{
+  width: 65%;
+}
+.login-text{
+  margin-left: 26px;
+}
+.login-text p{
+  word-spacing: 5px;
+  color: #1c1e21;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+}
+.right-items{
+  width: 45%;
+  position: relative;
+}
+.fb-form{
+  width: 340px;
+  float: right;
+  background-color: #fff;
+  padding: 20px 40px 25px 20px;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #c7c8c9;
+}
+.fb-form input{
+  width: 100%;
+  padding: 15px 10px;
+  margin:0 auto 10px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #1c1e21;
+}
+.fb-form button[type=submit]{
+  width: 107%;
+  padding: 12px 10px;
+  margin: 5px 0 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #1877F2;
+}
+.fb-form button[type=submit] a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.fb-form button[type=submit]:hover{
+  cursor: pointer;
+  background-color: #166FE5;
+  transition: 0.2s;
+}
+.forgot a{
+  display: block;
+  width: 107%;
+  text-decoration: none;
+  color: #1877f2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dadde1;
+  margin-bottom: 27px;
+}
+.forgot a:hover{
+  text-decoration: underline;
+}
+.new-account{
+  display: flex;
+  justify-content: center;
+}
+.new-account button[type=button]{
+  width: 60%;
+  padding: 13px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #42b72a;
+}
+.new-account button[type=button]:hover{
+  background-color: #36A420;
+}
+.new-account button[type=button] a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.create-page{
+  position:absolute;
+  top: 109%;
+  left: 25%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.create-page p a{
+  text-decoration: none;
+  color: #1c1e21;
+  font-weight: 700;
+}
+.create-page p a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #fff;
+}
+.top-list{
+  width: 50%;
+  margin: 28px auto 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dadde1;
+}
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.top-list ul li{
+  list-style: none;
+  padding-right: 10px;
+}
+footer ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: #737373;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+}
+.top-list ul li button[type=button]{
+  padding: 0 8px;
+  background-color: #f5f6f7;
+  border: 1px solid #ccd0d5;
+  border-radius: 2px;
+  color: #4b4f56;
+}
+
+.bottom-list{
+  width: 50%;
+  margin: 0 auto;
+}
+.bottom-list ul li{
+  list-style: none;
+  padding-right: 20px;
+}
